@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oliveira_gg.calculadora"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "58121f3c-7ccd-4a77-a748-666bf4e70db3"
+      }
+    },
+    "owner": "oliveira_gg"
   }
 }

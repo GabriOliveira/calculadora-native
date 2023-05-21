@@ -215,22 +215,22 @@ export default function App() {
     },
 
     operadorestilo: {
-      height: 100,
-      width: 100,
-      padding: 6,
+      height: '25%',
+      width: '25%',
+      padding: '1%',
       borderRadius: 50,
       textAlign: "center",
       flexDirection: "row",
       justifyContent: "center",
       alignItems: "center",
       backgroundColor: "#aafac8",
-      color : 'red',
+      
     },
 
     corpo: {
-      height: '20%',
+      height: '25%',
       width: '25%',
-      padding: 25,
+      padding: '1%',
       borderRadius: 50,
       textAlign: "center",
       flexDirection: "row",
@@ -244,6 +244,7 @@ export default function App() {
       backgroundColor: cor,
       textAlign: "center",
       flexDirection: "row",
+      
     },
     resultados: {
       backgroundColor: cor,
@@ -264,6 +265,7 @@ export default function App() {
       flexDirection: "row",
       flexWrap: 'wrap',
       width: 200,
+      height : '115%',
       alignItems: "center",
       justifyContent: "space-around",
       
@@ -275,9 +277,10 @@ export default function App() {
       bottom: 90,
       alignItems: "center",
       justifyContent: "center",
-      width: 50,
-      height: 50,
+      width: '20%',
+      height: '20%',
       borderRadius: 25,
+      marginTop : '1%',
     },
     seguradora: {},
   });
@@ -299,7 +302,7 @@ export default function App() {
           {" "}
           {numero1}
           {operador}
-          {numero2} ={" "}
+          {numero2} {" "}
         </Text>
         <Text style={styles.resultadoTexto}> {resultado}</Text>
       </View>
